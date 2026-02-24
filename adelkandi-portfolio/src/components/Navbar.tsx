@@ -12,10 +12,10 @@ function Navbar(){
 
                     {/* Links - centered */}
                     <div className="hidden md:flex items-center justify-center flex-1 space-x-8">
-                        <a href="/" className="text-[#F8F8FF] hover:text-[#5A8DEE] transition-colors">Home</a>
-                        <a href="/about" className="text-[#F8F8FF] hover:text-[#5A8DEE] transition-colors">About</a>
-                        <a href="/projects" className="text-[#F8F8FF] hover:text-[#5A8DEE] transition-colors">Projects</a>
-                        <a href="/contact" className="text-[#F8F8FF] hover:text-[#5A8DEE] transition-colors">Contact Me</a>
+                        <a href="/" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Home</a>
+                        <a href="/about" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">About</a>
+                        <a href="/projects" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Projects</a>
+                        <a href="/contact" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Contact Me</a>
                     </div>
 
                     {/* Right side - can add button here */}
