@@ -4,7 +4,7 @@ export default function Skills(){
     return (
         <>
         {/* Skills Section */}
-            <section id="skills" className="skills-section px-[8rem]">
+            <section id="skills" className="skills-section  px-[8rem]">
                 <div className="">
                     <div className="mb-12">
                         <div className="flex items-center gap-4 mb-8">
@@ -13,7 +13,7 @@ export default function Skills(){
                         </div>
                     </div>
                     {/* Skills Cards */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+                    <div className="flex flex-wrap justify-center gap-8">
                         {skillsData.map((category)=>(
                             <SkillsCard key={category.title} category={category}/>
                         ))}
