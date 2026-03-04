@@ -9,6 +9,7 @@
 /* Body */
 body{
     background-color: #111;
+    background-image: radial-gradient(1200px 400px at 10% 0%, rgba(90, 209, 178, 0.12), transparent 60%), radial-gradient(900px 400px at 90% 20%, rgba(246, 180, 82, 0.16), transparent 55%);;
     font-family: "Poppins" ;
     color: aliceblue;
 }
