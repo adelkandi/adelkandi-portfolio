@@ -21,7 +21,7 @@ export default function Hero(){
                     {/* Buttons */}
                     <div className="flex gap-4">
                         <button  className="px-5 py-3  rounded-full font-semibold text-[#111] bg-[#f6b452] transition hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(246,180,82,0.25)]" onClick={() => console.log("Clicked")}>View Projects</button>
-                        <a className="px-5 rounded-full border border-white/30 text-white px-6 py-3 font-semibold tracking-[0.02em] transition hover:-translate-y-0.5 transition hover:bg-[#5ad1]" href="public/Adel_Kandi_CV.pdf" download  >Download CV</a>
+                        <a className="px-5 rounded-full border border-white/30 text-white px-6 py-3 font-semibold tracking-[0.02em] transition hover:-translate-y-0.5 transition hover:bg-[#5ad1]" href="/Adel_Kandi_CV.pdf" download  >Download CV</a>
                     </div>
                     {/* Links */}
                     <div className=" flex gap-6">
