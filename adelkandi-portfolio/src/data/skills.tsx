@@ -60,6 +60,7 @@ export const skillsData: SkillsProps[]=[
             { name: "Vercel", icon: <SiVercel /> },
             { name: "Adobe AI", icon: <SiAdobeillustrator /> }
         ]
-    }
+        
+    },
 ]
 
