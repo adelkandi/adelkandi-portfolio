@@ -32,7 +32,7 @@ export default function Hero(){
                             <FaLinkedin className="mt-6 w-10 h-10 text-gray-400 hover:text-[#f6b452] transition-colors"/>
                         </a>
                             
-                        <a href="" target="_blank">
+                        <a href="https://x.com/adel_kandi" target="_blank">
                             <FaXTwitter className="mt-6 w-10 h-10 text-gray-400 hover:text-[#f6b452] transition-colors"/>
                         </a>
                     </div>
