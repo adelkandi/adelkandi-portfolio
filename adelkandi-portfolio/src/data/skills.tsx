@@ -1,7 +1,8 @@
 
 import type { SkillsProps } from "../types/skill";
-import { FaServer, FaCode, FaDatabase, FaCloud, FaTools, FaAws } from "react-icons/fa";
-import { SiSharp, SiPhp, SiNodedotjs, SiReact, SiTypescript, SiTailwindcss, SiMysql, SiOracle, SiDocker, SiGithubactions, SiFigma, SiGit, SiGithub, SiVercel, SiAdobeillustrator } from "react-icons/si";
+import { FaServer, FaCode, FaDatabase, FaCloud, FaTools, FaAws,FaTerminal, FaBoxOpen } from "react-icons/fa";
+import { SiLinux, SiGnubash, SiSharp, SiPhp, SiNodedotjs, SiReact, SiTypescript, SiTailwindcss, SiMysql, SiOracle, SiDocker, SiGithubactions, SiFigma, SiGit, SiGithub, SiVercel, SiAdobeillustrator } from "react-icons/si";
+import { MdOutlineSecurity } from "react-icons/md";
 
 export const skillsData: SkillsProps[]=[
     {
@@ -62,5 +63,24 @@ export const skillsData: SkillsProps[]=[
         ]
         
     },
+    {
+        title:"Linux",
+        titleLogo: <SiLinux className="inline mr-2" />,
+        skillsLogo: <div className="flex gap-3 mb-2 text-2xl">{[SiGnubash, FaTerminal, MdOutlineSecurity, FaBoxOpen].map((Icon, i) => <Icon key={i} />)}</div>,
+        skills:[
+            {
+                name:"Bash",icon:<SiGnubash />
+            },
+            {
+                name:"Linux CLI", icon:<FaTerminal />
+            },
+            {
+                name:"SSH/ Networking", icon:<MdOutlineSecurity />
+            },
+            {
+                name:"Package Managment", icon:<FaBoxOpen />
+            }
+        ]
+    }
 ]
 
