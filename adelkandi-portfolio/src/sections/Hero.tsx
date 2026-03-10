@@ -7,7 +7,7 @@ export default function Hero(){
     return(
         <>
             {/* Hero Section */}
-            <section className="hero-section  px-[8rem] py-[8rem] grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-15 items-center  bg-[radial-gradient(1200px_400px_at_10%_0%,rgba(90,209,178,0.12),transparent_60%),radial-gradient(900px_400px_at_90%_20%,rgba(246,180,82,0.16),transparent_55%)]">
+            <section className="hero-section  px-[8rem] py-[8rem] grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-15 items-center  bg-[radial-gradient(1200px_400px_at_10%_0%,rgba(90,209,178,0.12),transparent_60%),radial-gradient(900px_400px_at_90%_20%,rgba(246,180,82,0.16),transparent_55%)]" id="/">
                 <div className="container max-w[620px]">
                     {/* Presentation */}
                     <div className="grid gap-2 mb-5">
