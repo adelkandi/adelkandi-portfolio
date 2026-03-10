@@ -20,7 +20,7 @@ export default function Hero(){
                     <p className="text-2xl mb-7">Web Developer focused on building clean, scalable web applications.</p>
                     {/* Buttons */}
                     <div className="flex gap-4">
-                        <button  className="px-5 py-3  rounded-full font-semibold text-[#111] bg-[#f6b452] transition hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(246,180,82,0.25)]" onClick={() => console.log("Clicked")}>View Projects</button>
+                        <button  className="px-5 py-3  rounded-full font-semibold text-[#111] bg-[#f6b452] transition hover:-translate-y-0.5 hover:shadow-[0_12px_24px_rgba(246,180,82,0.25)]" onClick={() => document.getElementById("projects")?.scrollIntoView({behavior:'smooth'})}>View Projects</button>
                         <a className="px-5 rounded-full border border-white/30 text-white px-6 py-3 font-semibold tracking-[0.02em] transition hover:-translate-y-0.5 transition hover:bg-[#5ad1]" href="/Adel_Kandi_CV.pdf" download  >Download CV</a>
                     </div>
                     {/* Links */}
