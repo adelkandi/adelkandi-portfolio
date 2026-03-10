@@ -95,7 +95,7 @@ export default function ContactForm() {
                         >
                             {isSending ? "Sending..." : "Send Message"}
                         </button>
-                        {statusMessage && <p className="text-sm">{statusMessage}</p>}
+                        {statusMessage && <p className="text-sm text-grey-300">{statusMessage}</p>}
                     </div>
                 </form>
             </div>
