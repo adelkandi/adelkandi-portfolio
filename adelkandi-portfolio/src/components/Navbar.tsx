@@ -1,4 +1,5 @@
 import Logo from './Logo.tsx';
+import {Link} from 'react-scroll' 
 import {useState} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 
@@ -17,11 +18,11 @@ export default function Navbar(){
 
                     {/* Links - centered / Desktop Menu */}
                     <div className="hidden lg:flex  items-center justify-center flex-1 space-x-8">
-                        <a href="#" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Home</a>
-                        <a href="#about" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">About</a>
-                        <a href="#skills" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Skills</a>
-                        <a href="#projects" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Projects</a>
-                        <a href="#contact" className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors">Contact Me</a>
+                        <Link  to="/" smooth={true} duration={500} className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors cursor-pointer">Home</Link>
+                        <Link to="about" smooth={true} duration={500} className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors cursor-pointer"  >About</Link>
+                        <Link to="skills" smooth={true} duration={500} className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors cursor-pointer">Skills</Link>
+                        <Link to="projects" smooth={true} duration={500} className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors cursor-pointer">Projects</Link>
+                        <Link to="contact" smooth={true} duration={500} className="text-[#F8F8FF] hover:text-[#5ad1b2] transition-colors cursor-pointer">Contact Me</Link>
                     </div>
 
                     {/* Mobile Button */}
@@ -39,16 +40,16 @@ export default function Navbar(){
                 </div>
             </div>
             {/* Mobile / Tablet Menu */}
-                    {menuOpen && (
-                        <div className="lg:hidden absolute top-full right-4 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-[#5ad1b2]/35 bg-[#0b1220]/95 backdrop-blur-xl shadow-xl z-50">
-                            <div className="flex flex-col p-3">
-                                <a href="#" className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Home</a>
-                                <a href="#about" className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>About</a>
-                                <a href="#skills" className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Skills</a>
-                                <a href="#projects" className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Projects</a>
-                                <a href="#contact" className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Contact Me</a>
-                            </div>
-                        </div>
+            {menuOpen && (
+                <div className="lg:hidden absolute top-full right-4 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-[#5ad1b2]/35 bg-[#0b1220]/95 backdrop-blur-xl shadow-xl z-50">
+                    <div className="flex flex-col p-3">
+                        <Link to="/" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Home</Link>
+                        <Link to="about" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>About</Link>
+                        <Link to="skills" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Skills</Link>
+                        <Link to="projects" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Projects</Link>
+                        <Link to="contact" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Contact Me</Link>
+                    </div>
+                </div>
             )}
         </nav>
     )
