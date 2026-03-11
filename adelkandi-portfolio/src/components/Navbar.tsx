@@ -41,7 +41,7 @@ export default function Navbar(){
             </div>
             {/* Mobile / Tablet Menu */}
             {menuOpen && (
-                <div className="lg:hidden absolute top-full right-4 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-[#5ad1b2]/35 bg-[#0b1220]/95 backdrop-blur-xl shadow-xl z-50">
+                <div className="lg:hidden absolute top-full right-4 mt-2 w-[min(10rem,calc(100vw-2rem))] rounded-2xl border border-[#5ad1b2]/35 bg-[#0b1220]/95 backdrop-blur-xl shadow-xl z-50">
                     <div className="flex flex-col p-3">
                         <Link to="/" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>Home</Link>
                         <Link to="about" smooth={true} duration={500} className="text-[#F8F8FF] text-base px-5 py-3 rounded-lg hover:bg-[#5ad1b2]/20 transition-colors text-left" onClick={() => setMenuOpen(false)}>About</Link>
