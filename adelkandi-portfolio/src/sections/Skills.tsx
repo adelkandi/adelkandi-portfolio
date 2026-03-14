@@ -4,7 +4,7 @@ export default function Skills(){
     return (
         <>
         {/* Skills Section */}
-            <section id="skills" className="skills-section  px-[8rem] mb-10">
+            <section id="skills" className="skills-section px-8 sm:px-6 lg:px-[8rem] mb-10">
                 <div className="">
                     <div className="mb-12">
                         <div className="flex items-center gap-4 mb-8">
