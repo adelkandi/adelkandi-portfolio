@@ -46,11 +46,11 @@ export default function ContactForm() {
             {/* Contact Form */}
             <div className="mb-20 flex items-center justify-center">
                 <form
-                    className="grid grid-cols-2 border border-[#5ad1b2] rounded-xl w-[50rem] h-[30rem] bg-[#1E1E1E] p-5"
+                    className="w-full grid lg:grid-cols-2  grid-cols-1 border border-[#5ad1b2] rounded-xl max-w-[50rem] w-full h-[30rem] bg-[#1E1E1E] p-5"
                     onSubmit={handleSubmit}
                 >
                     {/* Mail Logo */}
-                    <div className="mt-3">
+                    <div className="mt-3 hidden lg:block">
                         <img src={MailLogo} alt="Mail Logo" className="h-[15rem] w-[15rem]" />
                     </div>
 

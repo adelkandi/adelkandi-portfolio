@@ -7,7 +7,7 @@ export default function Contact(){
     return(
         <>
         {/* Contact Section */}
-            <section id="contact" className="skills-section  px-[8rem]">
+            <section id="contact" className="skills-section  px-[4rem] lg:px-[8rem]">
             <div className="">
                 <div className="mb-12">
                     <div className="flex items-center gap-4 mb-8">
