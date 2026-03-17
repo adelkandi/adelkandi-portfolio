@@ -5,7 +5,7 @@ export default function Projects(){
 
     return(
         <>
-            <section id="projects" className="skills-section  px-[8rem]">
+            <section id="projects" className="skills-section px-8 sm:px-6  lg:px-[8rem]">
             <div className="">
                 <div className="mb-12">
                     <div className="flex items-center gap-4 mb-16">
