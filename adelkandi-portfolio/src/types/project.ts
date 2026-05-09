@@ -6,7 +6,10 @@ import type {ReactNode} from 'react';
 export interface Project{
     title: string;
     titleLogo: ReactNode;
-}
-export interface Details{
-    
+    description:string;
+    githubRepository?: string;
+    technology:ReactNode;
+    demo?:string;  
+    screenshots: string[]; // image paths for non-hosted projects
+    status?: "live" | "non-hosted" | "private";
 }
