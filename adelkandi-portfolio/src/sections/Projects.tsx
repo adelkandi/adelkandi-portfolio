@@ -14,11 +14,6 @@ export default function Projects(){
                     </div>
                 </div>
                 {/* Projects Cards */}
-                <div className="flex flex-col items-center justify-center py-16">
-                    <div className="text-5xl text-[#f6b452] mb-4">🚀</div>
-                    <div className="text-4xl font-semibold text-[#f6b452] mb-2">Coming Soon</div>
-                    <p className="text-[#F8F8FF] text-lg">Exciting projects coming your way...</p>
-                </div>
 
             </div>
             </section>
