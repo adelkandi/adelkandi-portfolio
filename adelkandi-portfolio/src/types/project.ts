@@ -2,14 +2,14 @@
 import type {ReactNode} from 'react';
 
 // Project Header:
-
+export type ProjectStatus = "live" | "non-hosted" | "private";
 export interface Project{
     title: string;
     titleLogo: ReactNode;
-    description:string;
-    githubRepository?: string;
-    technology:ReactNode;
-    demo?:string;  
+    technology: ReactNode[];
+    description: string;
+    repoUrl?: string;
+    demo?: string;  
     screenshots: string[]; // image paths for non-hosted projects
-    status?: "live" | "non-hosted" | "private";
+    status?: ProjectStatus;
 }
