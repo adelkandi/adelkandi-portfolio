@@ -1,13 +1,12 @@
-// Project Variables.
 import type {ReactNode} from 'react';
 
-// Project Header:
 export type ProjectStatus = "live" | "non-hosted" | "private";
 export interface Project{
     title: string;
-    titleLogo: ReactNode;
-    technology: ReactNode[];
+    tagline: string;
+    titleLogo?: ReactNode;
     description: string;
+    technology: ReactNode[];
     repoUrl?: string;
     demo?: string;  
     screenshots: string[]; // image paths for non-hosted projects
