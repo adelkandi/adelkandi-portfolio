@@ -5,6 +5,30 @@
 /* tailwind framework */
 @import "tailwindcss";
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+img,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* Body */
 body{
