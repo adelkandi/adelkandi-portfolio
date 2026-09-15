@@ -1,7 +1,7 @@
 
 import type { SkillsProps } from "../types/skill";
 import { FaServer, FaCode, FaDatabase, FaCloud, FaTools, FaAws,FaTerminal, FaBoxOpen } from "react-icons/fa";
-import { SiLinux, SiGnubash, SiSharp, SiPhp, SiNodedotjs, SiReact, SiTypescript, SiTailwindcss, SiMysql, SiOracle, SiDocker, SiGithubactions, SiFigma, SiGit, SiGithub, SiVercel, SiAdobeillustrator } from "react-icons/si";
+import { SiLinux, SiGnubash, SiSharp, SiPhp, SiNodedotjs, SiReact, SiTypescript, SiTailwindcss, SiMysql, SiOracle, SiDocker, SiGithubactions, SiFigma, SiGit, SiGithub, SiVercel } from "react-icons/si";
 import { MdOutlineSecurity } from "react-icons/md";
 
 export const skillsData: SkillsProps[]=[
@@ -46,20 +46,18 @@ export const skillsData: SkillsProps[]=[
             { name: "Azure", icon: <FaCloud /> },
             { name: "AWS", icon: <FaAws /> },
             { name: "Docker", icon: <SiDocker /> },
-            { name: "CI/CD", icon: <SiGithubactions /> },
-            { name: "GitHub Actions", icon: <SiGithubactions /> }
+            { name: "GitHub Actions (CI/CD)", icon: <SiGithubactions /> }
         ]
     },
     {
         title:"Tools",
         titleLogo: <FaTools className="inline mr-2" />,
-        skillsLogo: <div className="flex gap-3 mb-2 text-2xl">{[SiFigma, SiGit, SiGithub, SiVercel, SiAdobeillustrator].map((Icon, i) => <Icon key={i} />)}</div>,
+        skillsLogo: <div className="flex gap-3 mb-2 text-2xl">{[SiFigma, SiGit, SiGithub, SiVercel].map((Icon, i) => <Icon key={i} />)}</div>,
         skills:[
             { name: "Figma", icon: <SiFigma /> },
             { name: "Git", icon: <SiGit /> },
             { name: "GitHub", icon: <SiGithub /> },
-            { name: "Vercel", icon: <SiVercel /> },
-            { name: "Adobe AI", icon: <SiAdobeillustrator /> }
+            { name: "Vercel", icon: <SiVercel /> }
         ]
         
     },
