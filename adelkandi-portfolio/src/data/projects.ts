@@ -6,8 +6,9 @@ export const projectsData: Project[] = [
 		tagline: "An AI agent that turns a customer message into a dispatched job",
 		description: "An autonomous AI field dispatcher for home-service teams, built at the AI Tinkerers Hackathon in Ottawa. DaVinci lives on WhatsApp, understanding text, photo, and voice messages, extracting job details, evaluating urgency, and moving work through a deterministic operational workflow. It includes Mission Control for agent activity, idempotency, and event logging to prevent duplicate actions.",
 		technology: ["Next.js", "TypeScript", "OpenAI (text/vision/voice)", "Twilio WhatsApp API", "Supabase PostgreSQL", "Google Cloud Run"],
+		repoUrl: "https://github.com/adelkandi/davinci-agent",
 		screenshots: [],
-		status: "non-hosted",
+		status: "live",
 	},
 	{
 		title: "Event Planning Platform",
