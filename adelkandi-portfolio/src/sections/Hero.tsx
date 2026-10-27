@@ -12,7 +12,7 @@ export default function Hero(){
                     {/* Presentation */}
                     <div className="grid gap-2 mb-5">
                         <div className="presntation-container text-4xl sm:text-5xl lg:text-6xl">
-                            <h1 className="text-[#5ad1b2] mb-7">HI,</h1><h2 className="mb-7"> I’m Adel</h2>
+                            <h1 className="text-[#5ad1b2] mb-7">Hi,</h1><h2 className="mb-7"> I’m Adel</h2>
                         </div>
                     </div>
                     
